@@ -1,0 +1,7 @@
+{
+  "name": "vskin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-card-header>
+    <ion-card-title>Iniciar Sesion</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <form>
+    <ion-item>
+      <ion-label>Correo</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Contraseña</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </form>
+    <br>
+
+    <ion-button [routerLink]="['/home']">
+      ingresar
+    </ion-button>
+
+    <ion-button  [routerLink]="['/registro']">
+      registrate
+    </ion-button>
+    
+  </ion-card-content>
+</ion-content>
+

@@ -1,0 +1,102 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>foro</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+
+<ion-content [fullscreen]="true">
+<ion-button class="botonpublicar">Publicar mensaje</ion-button>
+<ion-button class="botoncrearf">Crear un foro</ion-button>
+<br>
+<br>
+<div class="foro">
+<ion-card >
+  <ion-card-header>
+    <ion-card-title>Card Title</ion-card-title>
+    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+  <ion-item>
+ <ion-button>Responder</ion-button>
+  </ion-item>
+</ion-card>
+<br>
+
+
+<ion-card >
+  <ion-card-header>
+    <ion-card-title>Card Title</ion-card-title>
+    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+  <ion-item>
+    <ion-button>Responder</ion-button>
+  </ion-item>
+</ion-card>
+<br>
+
+<ion-card >
+  <ion-card-header>
+    <ion-card-title>Card Title</ion-card-title>
+    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+  <ion-item>
+    <ion-button>Responder</ion-button>
+  </ion-item>
+</ion-card>
+</div>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button [routerLink]="['/foro']">
+      <ion-icon name="megaphone-outline"></ion-icon>
+      Foro
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/empresas']">
+      <ion-icon name="people-outline"></ion-icon>
+      Empresas
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/home']">
+      <ion-icon name="search"></ion-icon>
+      Para ti
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/perfil']">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      Perfil
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/crear']">
+      <ion-icon name="construct-outline"></ion-icon>
+      Crear
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

@@ -1,0 +1,100 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>empresas</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Item</ion-label>
+          <ion-button>Enviar mensaje</ion-button>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Item</ion-label>
+          <ion-button>Enviar mensaje</ion-button>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Item</ion-label>
+          <ion-button>Enviar mensaje</ion-button>
+        </ion-item>
+  
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Item</ion-label>
+          <ion-button > 
+            Enviar mensaje</ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button [routerLink]="['/foro']">
+      <ion-icon name="megaphone-outline"></ion-icon>
+      Foro
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/empresas']">
+      <ion-icon name="people-outline"></ion-icon>
+      Empresas
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/home']">
+      <ion-icon name="search"></ion-icon>
+      Para ti
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/perfil']">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      Perfil
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/crear']">
+      <ion-icon name="construct-outline"></ion-icon>
+      Crear
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

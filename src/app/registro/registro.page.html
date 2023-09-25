@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Registro</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>
+
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card-content class="registro">
+<ion-item>
+    <ion-label>Correo</ion-label>
+    <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label>Contraseña</ion-label>
+  <ion-input type="password"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label>Confirmar Contraseña</ion-label>
+  <ion-input type="password"></ion-input>
+</ion-item>
+</ion-card-content>
+
+<br>
+<ion-button [routerLink]="['/login']">
+  Registrar
+</ion-button>
+
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">perfil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+
+
+
+
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button [routerLink]="['/foro']">
+      <ion-icon name="megaphone-outline"></ion-icon>
+      Foro
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/empresas']">
+      <ion-icon name="people-outline"></ion-icon>
+      Empresas
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/home']">
+      <ion-icon name="search"></ion-icon>
+      Para ti
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/perfil']">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      Perfil
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/crear']">
+      <ion-icon name="construct-outline"></ion-icon>
+      Crear
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
